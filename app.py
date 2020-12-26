@@ -3,16 +3,16 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 
 app = Flask(__name__)
-model1 = pickle.load(open('./models/model1.pkl', 'rb'))
-model2 = pickle.load(open('./models/model2.pkl', 'rb'))
-model3 = pickle.load(open('./models/model3.pkl', 'rb'))
-model4 = pickle.load(open('./models/model4.pkl', 'rb'))
-model5 = pickle.load(open('./models/model5.pkl', 'rb'))
-model6 = pickle.load(open('./models/model6.pkl', 'rb'))
-model7 = pickle.load(open('./models/model7.pkl', 'rb'))
-model8 = pickle.load(open('./models/model8.pkl', 'rb'))
-model9 = pickle.load(open('./models/model9.pkl', 'rb'))
-model10 = pickle.load(open('./models/model10.pkl', 'rb'))
+model1 = pickle.load(open('./models/Model1.pkl', 'rb'))
+model2 = pickle.load(open('./models/Model2.pkl', 'rb'))
+model3 = pickle.load(open('./models/Model3.pkl', 'rb'))
+model4 = pickle.load(open('./models/Model4.pkl', 'rb'))
+model5 = pickle.load(open('./models/Model5.pkl', 'rb'))
+model6 = pickle.load(open('./models/Model6.pkl', 'rb'))
+model7 = pickle.load(open('./models/Model7.pkl', 'rb'))
+model8 = pickle.load(open('./models/Model8.pkl', 'rb'))
+model9 = pickle.load(open('./models/Model9.pkl', 'rb'))
+model10 = pickle.load(open('./models/Model10.pkl', 'rb'))
 
 
 @app.route('/')
